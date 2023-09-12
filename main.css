@@ -1,0 +1,309 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Peralta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Peralta&family=Poppins&display=swap");
+/* Start Global CSS */
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+
+/* Start Padding Classes */
+.padding-1 {
+  padding: 1rem;
+}
+.padding-2 {
+  padding: 2rem;
+}
+.padding-3 {
+  padding: 3rem;
+}
+.padding-4 {
+  padding: 4rem;
+}
+.padding-b-1 {
+  padding-bottom: 1rem;
+}
+.padding-b-2 {
+  padding-bottom: 2rem;
+}
+.padding-b-3 {
+  padding-bottom: 3rem;
+}
+.padding-b-4 {
+  padding-bottom: 4rem;
+}
+.secondary-text {
+  color: #4b40c5;
+}
+.bg-second {
+  background-color: #4b40c5;
+}
+/* Start Height, width CSS */
+.max-width {
+  max-width: 350px;
+}
+/* End Height, width CSS */
+
+/* End Padding Classes */
+
+h1 {
+  margin: 2rem auto 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: inline;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+}
+.btn-primary {
+  background-color: #df6951;
+  border: 1px solid #df6951;
+}
+/* End Global CSS */
+
+/* Start Header Css */
+section:nth-child(1) {
+  margin-top: 0;
+}
+.logo {
+  font-family: "Peralta", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+.nav-btn {
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  line-height: 1rem;
+  justify-content: space-evenly;
+}
+.header {
+  width: 100%;
+  background: transparent;
+  top: 0;
+  bottom: 0;
+}
+.navbar-area {
+  width: 100%;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  padding: 0;
+}
+.header-align {
+  margin-top: 10rem;
+}
+/* End Header CSS */
+
+/* Start category css */
+.category-content > div,
+img,
+p,
+i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 20px auto;
+  text-align: center;
+}
+.local-event,
+.best-flight {
+  height: auto;
+  position: relative;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  box-shadow: 0 3px 0 0 rgb(224, 224, 224, 0.2);
+}
+.box {
+  background-color: #4b40c5;
+  position: absolute;
+  border-radius: 0 1rem 0 0;
+  z-index: -1;
+  top: -20px;
+  right: -20px;
+  min-width: 70px;
+  min-height: 70px;
+}
+.box1 {
+  background-color: #df6951;
+  position: absolute;
+  z-index: -1;
+  bottom: -20px;
+  left: -20px;
+  min-width: 70px;
+  min-height: 70px;
+}
+/* End category css */
+section {
+  margin: 50px auto;
+}
+
+/* Start Hero Area Css */
+.hero-area {
+  width: 100%;
+  height: 100vh;
+  background: url("images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* End Hero Area CSS */
+.img-svg {
+  max-width: 108px;
+  max-height: 98px;
+}
+.aero-plane {
+  min-height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Start Book area CSS */
+.book-area-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* End Book area CSS */
+/* start why choose us area CSS*/
+.why-choose__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+  max-width: 340px;
+  min-height: 310px;
+  border-radius: 15px;
+}
+.icon {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  align-items: center;
+  padding: 15px;
+  color: #df6951;
+}
+.icon-bg-blue {
+  background-color: #4b40c5;
+}
+.icon-bg-yellow {
+  background-color: #f0bb1f;
+}
+.icon-bg-orange {
+  background-color: #f15a2b;
+}
+.icon-white {
+  color: white;
+}
+/* End why choose us area CSS */
+
+/* Start newsletter CSS */
+.news__content__area {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.7rem;
+  background: #dfd7f9;
+  min-height: 410px;
+  border-radius: 100px 15px 15px 15px;
+}
+
+.image-placer img {
+  position: absolute;
+  top: -18%;
+  right: -25px;
+}
+
+/* End newsletter CSS */
+
+/* Start footer CSS */
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.instagram-icon {
+  color: white;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #b8d2f1 0deg,
+    #f289aa 60deg,
+    #c68bf0 106.09deg,
+    #d164da 153.75deg,
+    #c963e8 221.25deg,
+    #bfc2e8 258.75deg,
+    #ffc999 288.75deg,
+    #d0d8c9 315deg,
+    #bad0f1 334.13deg,
+    #ced8cb 358.97deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+}
+.social-icons i {
+  width: 100px;
+  height: 100px;
+  padding: 0.5rem;
+  display: inline;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px #e1e1e1;
+}
+.btn-social {
+  padding: 4px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 23px;
+  color: white;
+  background-color: #000000;
+  max-width: 100%;
+  height: 45px;
+}
+.btn-social i {
+  line-height: 2px;
+  padding: 6px;
+  display: inline;
+}
+.btn-social span {
+  line-height: auto;
+  padding: 6px;
+  display: inline;
+  font-size: 8px;
+}
+.brand-secondary {
+  text-transform: uppercase;
+}
+.discover-p {
+  margin-bottom: 6rem;
+  font-size: 1.7rem;
+  display: inline;
+}
+/* end footer CSS */
